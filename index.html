@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio | Camila Romão</title>
+    
+    <!-- CSS Fonte e Estilos -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVEGAÇÃO -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="#" class="logo">Camila Romão</a>
+
+            <ul class="nav-links">
+                <li class="dropdown">
+                    <button class="dropbtn">Projetos &#9662;</button>
+                    <div class="dropdown-content">
+                        <a href="https://camilaromao.github.io/camila-dorameira/" target="_blank">Camila Dorameira</a>
+                        <a href="https://camilaromao.github.io/juoliveiranailart/" target="_blank">Manicure</a>
+                        <a href="https://camilaromao.github.io/kdetudo/" target="_blank">Informática</a>
+                    </div>
+                </li>
+                <li>
+                    <a class="btn-contato" href="https://www.instagram.com/camilaromaodev" target="_blank">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- APRESENTAÇÃO / HERO -->
+    <section class="hero-section">
+        <div class="hero-card">
+            <div class="hero-grid">
+                
+                <div class="foto-perfil-wrapper">
+                    <img class="img-ca" src="assets/camilaRomao.png" alt="Foto da Camila Romão">
+                </div>
+
+                <div class="texto-hero">
+                    <h1 class="titulo-cargo">Desenvolvedora Front-End Jr.</h1>
+                    <p class="descricao-1">
+                        Tenho base sólida em <strong>HTML, CSS e JavaScript</strong>, e sou apaixonada por transformar ideias em telas modernas e funcionais. Estou em constante evolução para aperfeiçoar minhas habilidades e criar projetos cada vez mais incríveis e impactantes.
+                    </p>
+                    <p class="descricao-2">
+                        Muito prazer, eu sou a Camila e tenho como missão ajudar pequenos negócios a venderem mais com sites modernos e responsivos. Desenvolvo landing pages e sites institucionais sob medida para destacar sua marca na internet e converter visitantes em clientes.
+                    </p>
+                </div>
+
+                <div class="foto-secundaria-wrapper">
+                    <img class="imagem-estudando" src="assets/estudando.jpg" alt="Camila Estudando">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- BARRA DE HABILIDADES (Apenas as suas linguagens) -->
+    <section class="marquee-section">
+        <div class="marquee-track">
+            <!-- Bloco 1 -->
+            <div class="marquee-content">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JAVASCRIPT</span>
+                <span>FIGMA</span>
+            </div>
+            <!-- Bloco 2 (duplicado para o efeito infinito perfeito) -->
+            <div class="marquee-content" aria-hidden="true">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JAVASCRIPT</span>
+                <span>FIGMA</span>
+            </div>
+            <!-- Bloco 3 -->
+            <div class="marquee-content" aria-hidden="true">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JAVASCRIPT</span>
+                <span>FIGMA</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTEÚDO PRINCIPAL / PROJETOS -->
+    <main class="main-content">
+        
+        <div class="secao-titulo-projetos">
+            <img class="img-decorativa" src="assets/olha-so.jpg" alt="Figurinha da Camila">
+            <h2>CONFIRA ALGUNS DOS MEUS PROJETOS</h2>
+            <img class="img-decorativa" src="assets/que-ideia.jpg" alt="Figurinha de Ideia">
+        </div>
+
+        <div class="projetos-list">
+            
+            <!-- Projeto 1 -->
+            <article class="projeto-card">
+                <h3>
+                    <a href="https://camilaromao.github.io/camila-dorameira/" target="_blank">
+                        Camila Dorameira
+                    </a>
+                </h3>
+                <div class="video-wrapper">
+                    <video autoplay loop muted playsinline>
+                        <source src="assets/site-camila-dorameira.mp4" type="video/mp4">
+                        Seu navegador não suporta a exibição deste vídeo.
+                    </video>
+                </div>
+            </article>
+
+            <!-- Projeto 2 -->
+            <article class="projeto-card">
+                <h3>
+                    <a href="https://camilaromao.github.io/juoliveiranailart/" target="_blank">
+                        Ju Oliveira Manicure
+                    </a>
+                </h3>
+                <div class="video-wrapper">
+                    <video autoplay loop muted playsinline>
+                        <source src="assets/site-manicure.mp4" type="video/mp4">
+                        Seu navegador não suporta a exibição deste vídeo.
+                    </video>
+                </div>
+            </article>
+
+            <!-- Projeto 3 -->
+            <article class="projeto-card">
+                <h3>
+                    <a href="https://camilaromao.github.io/kdetudo/" target="_blank">
+                        Informática
+                    </a>
+                </h3>
+                <div class="video-wrapper">
+                    <video autoplay loop muted playsinline>
+                        <source src="assets/site-informatica.mp4" type="video/mp4">
+                        Seu navegador não suporta a exibição deste vídeo.
+                    </video>
+                </div>
+            </article>
+
+        </div>
+
+        <!-- BOTÃO DE ORÇAMENTO -->
+        <div class="cta-container">
+            <a class="btn-orcamento" href="https://wa.me/5513991827828" target="_blank">
+                Solicitar um orçamento
+            </a>
+        </div>
+
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="footer">
+        <p>Criado com &#10084;&#65039; por <strong>Camila Romão</strong></p>
+    </footer>
+
+</body>
+</html>
